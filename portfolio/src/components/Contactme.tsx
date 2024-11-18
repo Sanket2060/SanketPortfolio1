@@ -36,7 +36,7 @@ const Contactme = () => {
               </option>
               <option value="budget3">💼Want to hire you</option>
               <option value="budget2">💻Freelancing work</option>
-              <option value="budget1">💬Random guff-gaff</option>
+              <option value="budget1">🧋Random guff-gaff</option>
             </select>
           </div>
 

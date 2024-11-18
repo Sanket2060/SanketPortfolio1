@@ -13,6 +13,10 @@ function App() {
         <Experience />
         <Tools />
         <Contactme />
+        <footer className="w-full text-[#998f8f] text-center">
+          Made with <span>💖</span> and{" "}
+          <span className="text-[#f46c38]">JS</span>
+        </footer>
       </div>
     </>
   );
