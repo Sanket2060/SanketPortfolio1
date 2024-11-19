@@ -11,7 +11,7 @@ function App() {
         <div>
           <Home />
         </div>
-        <div className="px-36">
+        <div className="lg:px-36">
           <Projects />
           <Experience />
           <Tools />
