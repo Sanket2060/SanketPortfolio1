@@ -6,10 +6,10 @@ const Contactme = () => {
         <div className="text-[#353334] mx-auto text-center">TOGETHER</div>
       </div>
       <div className="mt-10 flex items-center justify-center bg-black">
-        <form className="w-full max-w-md bg-[#1c1a19] p-6 rounded-lg shadow-md">
+        <form className="w-full p-6 rounded-lg shadow-md">
           {/* Name and Email */}
-          <div className="flex gap-4 mb-4">
-            <div className="flex-1">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+            <div>
               <label className="block text-[#998f8f] text-sm mb-2">Name</label>
               <input
                 type="text"
@@ -17,7 +17,7 @@ const Contactme = () => {
                 className="w-full px-4 py-2 bg-[#353334] text-white rounded-md outline-none focus:ring-2 focus:ring-orange-500"
               />
             </div>
-            <div className="flex-1">
+            <div>
               <label className="block text-[#998f8f] text-sm mb-2">Email</label>
               <input
                 type="email"
@@ -27,7 +27,7 @@ const Contactme = () => {
             </div>
           </div>
 
-          {/* Budget */}
+          {/* Topic */}
           <div className="mb-4">
             <label className="block text-[#998f8f] text-sm mb-2">Topic</label>
             <select className="w-full px-4 py-2 bg-[#353334] text-white rounded-md outline-none focus:ring-2 focus:ring-orange-500">
