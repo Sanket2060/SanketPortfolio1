@@ -2,7 +2,7 @@ const AdditionalDescription = () => {
   return (
     <>
       <div className="further-description">
-        <div className="post mt-6 font-bold text-5xl">
+        <div className="post mt-10 font-bold text-5xl">
           <div className="text-white mx-auto text-center ">SOFTWARE</div>
           <div className="text-[#353334] mx-auto text-center">ENGINEER</div>
         </div>

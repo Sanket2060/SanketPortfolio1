@@ -10,6 +10,7 @@ import {
   Mail,
 } from "lucide-react";
 import insta from "../assets/insta.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -26,14 +27,16 @@ const Home = () => {
           <div className="name text-center mt-5 text-3xl font-semibold">
             SANKET KARKI
           </div>
-          <div className="description mt-4 text-center text-[#8b6b6e] md:px-40 lg:px-14">
+          <div className="description mt-4 text-center text-[#8b6b6e] px-10 sm:px-36 md:px-56 lg:px-14">
             A Passionate Developer who has created impactful tech solutions to
             solve real-world problems.
           </div>
-          <div className="socials flex mt-5  justify-around mx-10 sm:px-52 lg:px-12">
+          <div className="socials flex mt-5  justify-around mx-10 sm:px-36 md:px-56 lg:px-12">
+            <Link to='www.linkedi'>
             <span className="">
               <Linkedin color="#f46c38" />
             </span>
+            </Link>
             <span className="">
               <Instagram color="#f46c38" />
             </span>
