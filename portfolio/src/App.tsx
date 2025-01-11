@@ -16,7 +16,7 @@ import {
   Instagram,
   Mail,
 } from "lucide-react";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 function App() {
   return (
     <>
@@ -53,11 +53,7 @@ function App() {
             <Home />
           </div>
           <div className="lg:px-0 lg:py-5">
-            <AdditionalDescription />
-            <Projects />
-            <Experience />
-            <Tools />
-            <Contactme />
+            <Outlet />
             <footer className="w-full text-[#998f8f] text-center mt-8">
               Made with <span>💖</span> and{" "}
               <span className="text-[#f46c38]">JS</span>

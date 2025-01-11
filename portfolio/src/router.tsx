@@ -5,27 +5,67 @@ import Experience from "./components/Experience";
 import Tools from "./components/Tools";
 import Blog from "./components/Blog";
 import App from "./App";
+import Contactme from "./components/Contactme";
+import AdditionalDescription from "./components/AdditionalDescription";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
-  },
-  {
-    path: "/projects",
-    element: <Projects />,
-  },
-  {
-    path: "/experience",
-    element: <Experience />,
-  },
-  {
-    path: "/tools",
-    element: <Tools />,
-  },
-  {
-    path: "/blog",
-    element: <Blog />,
+    element: (
+      <>
+        <App />
+      </>
+    ),
+    children: [
+      {
+        path: "",
+        element: (
+          <>
+            <AdditionalDescription />
+            <Projects />
+            <Experience />
+            <Tools />
+            <Contactme />
+          </>
+        ),
+      },
+      {
+        path: "projects",
+        element: (
+          <>
+            <Projects />
+            <Contactme />
+          </>
+        ),
+      },
+      {
+        path: "/experience",
+        element: (
+          <>
+            <Experience />
+            <Contactme />
+          </>
+        ),
+      },
+      {
+        path: "/tools",
+        element: (
+          <>
+            <Tools />
+            <Contactme />
+          </>
+        ),
+      },
+      {
+        path: "/blog",
+        element: (
+          <>
+            <Blog />
+            <Contactme />
+          </>
+        ),
+      },
+    ],
   },
 ]);
 
