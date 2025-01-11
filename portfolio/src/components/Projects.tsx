@@ -3,7 +3,7 @@ import SingleProject from "./SingleProject";
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects lg:px-20">
       <div className="topic mt-12 font-bold text-5xl">
         <div className="text-white mx-auto text-center ">RECENT</div>
         <div className="text-[#353334] mx-auto text-center">PROJECTS</div>

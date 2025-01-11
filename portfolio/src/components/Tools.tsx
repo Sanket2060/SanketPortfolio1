@@ -2,7 +2,7 @@ import SingleProject from "./SingleProject";
 
 const Tools = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-12 lg:px-20">
       <div className="topic font-bold text-5xl">
         <div className="text-white mx-auto text-center ">DAILY</div>
         <div className="text-[#353334] mx-auto text-center">UTILITIES</div>

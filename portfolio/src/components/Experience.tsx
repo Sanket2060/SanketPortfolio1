@@ -1,6 +1,6 @@
 const Experience = () => {
   return (
-    <div className="mt-6">
+    <div className="mt-6 lg:px-20">
       <div className="topic mt-12 font-bold text-5xl">
         <div className="text-white mx-auto text-center ">MY OWN</div>
         <div className="text-[#353334] mx-auto text-center">EXPERIENCE</div>

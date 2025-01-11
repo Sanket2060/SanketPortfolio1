@@ -1,6 +1,6 @@
 const Contactme = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-12 lg:px-20">
       <div className="topic font-bold text-5xl">
         <div className="text-white mx-auto text-center ">LET'S WORK</div>
         <div className="text-[#353334] mx-auto text-center">TOGETHER</div>
