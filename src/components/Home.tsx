@@ -1,4 +1,4 @@
-import { Facebook, Linkedin, Instagram, Mail } from "lucide-react";
+import { Facebook, Linkedin, GithubIcon, Mail } from "lucide-react";
 import insta from "../assets/insta.png";
 import { Link } from "react-router-dom";
 
@@ -22,20 +22,26 @@ const Home = () => {
             solve real-world problems.
           </div>
           <div className="socials flex mt-5  justify-around mx-10 sm:px-36 md:px-56 lg:px-12">
-            <Link to="www.linkedi">
+            <Link to="https://www.linkedin.com/in/sanket-karki-942617184/">
               <span className="">
                 <Linkedin color="#f46c38" />
               </span>
             </Link>
-            <span className="">
-              <Instagram color="#f46c38" />
-            </span>
-            <span className="">
-              <Facebook color="#f46c38" />
-            </span>
-            <span className="">
-              <Mail color="#f46c38" />
-            </span>
+            <Link to="https://github.com/Sanket2060">
+              <span className="">
+                <GithubIcon color="#f46c38" />
+              </span>
+            </Link>
+            <Link to="https://www.facebook.com/people/Carkey-Sanket/pfbid0wQgiKo9S5VH7HzR5dAxRh1ymQGtLx5Zvqjb1p646Kpp9tJKiRHLq6rngVUmiPRu5l/">
+              <span className="">
+                <Facebook color="#f46c38" />
+              </span>
+            </Link>
+            <Link to="sanketkarki2060@gmail.com">
+              <span className="">
+                <Mail color="#f46c38" />
+              </span>
+            </Link>
           </div>
         </div>
       </div>
