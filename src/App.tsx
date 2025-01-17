@@ -1,22 +1,13 @@
 import "./App.css";
-import AdditionalDescription from "./components/AdditionalDescription";
-import Contactme from "./components/Contactme";
-import Experience from "./components/Experience";
-import Home from "./components/Home";
-import Projects from "./components/Projects";
-import Tools from "./components/Tools";
 import {
   LucideFolder,
   LucideHome,
   Lightbulb,
   Wrench,
   NotebookPen,
-  Facebook,
-  Linkedin,
-  Instagram,
-  Mail,
 } from "lucide-react";
 import { Link, Outlet } from "react-router-dom";
+import Home from "./components/Home";
 function App() {
   return (
     <>

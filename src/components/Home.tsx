@@ -1,14 +1,4 @@
-import {
-  LucideFolder,
-  LucideHome,
-  Lightbulb,
-  Wrench,
-  NotebookPen,
-  Facebook,
-  Linkedin,
-  Instagram,
-  Mail,
-} from "lucide-react";
+import { Facebook, Linkedin, Instagram, Mail } from "lucide-react";
 import insta from "../assets/insta.png";
 import { Link } from "react-router-dom";
 
@@ -32,10 +22,10 @@ const Home = () => {
             solve real-world problems.
           </div>
           <div className="socials flex mt-5  justify-around mx-10 sm:px-36 md:px-56 lg:px-12">
-            <Link to='www.linkedi'>
-            <span className="">
-              <Linkedin color="#f46c38" />
-            </span>
+            <Link to="www.linkedi">
+              <span className="">
+                <Linkedin color="#f46c38" />
+              </span>
             </Link>
             <span className="">
               <Instagram color="#f46c38" />
