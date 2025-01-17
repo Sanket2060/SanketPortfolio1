@@ -29,4 +29,4 @@ jobs:
         with:
           branch: gh-pages  # Target branch for the deployed content
           folder: dist  # Folder containing the build output
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}  # Use the PAT secret
