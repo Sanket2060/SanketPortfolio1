@@ -33,4 +33,4 @@ jobs:
         with:
           branch: gh-pages   # The branch to deploy to
           folder: dist       # The folder to deploy (adjust if your build folder is different)
-          token: ${{ secrets.GITHUB_TOKEN }}  # GitHub token for authentication
+          token: ${{ secrets.GH_TOKEN }}  # GitHub token for authentication
