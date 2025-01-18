@@ -11,7 +11,7 @@ const Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Sanket Karki - A passionate full-stack developer creating impactful tech solutions to solve real-world problems."
+          content="Sanket Karki -A passionate Fullstack Developer from Pokhara, Nepal, creating impactful tech solutions for real-world problems."
         />
         <title>Sanket Karki - Full-Stack Developer</title>
 
@@ -31,7 +31,7 @@ const Home = () => {
                 "https://www.facebook.com/people/Carkey-Sanket/pfbid0wQgiKo9S5VH7HzR5dAxRh1ymQGtLx5Zvqjb1p646Kpp9tJKiRHLq6rngVUmiPRu5l/",
                 "mailto:sanketkarki2060@gmail.com"
               ],
-              "description": "A passionate full-stack developer who creates impactful solutions for real-world problems."
+              "description": "A passionate Fullstack Developer from Pokhara, Nepal, creating impactful tech solutions for real-world problems."
             }
           `}
         </script>
@@ -49,7 +49,7 @@ const Home = () => {
         />
         <meta
           property="og:description"
-          content="A passionate full-stack developer creating impactful solutions for real-world problems."
+          content="A passionate Fullstack Developer from Pokhara, Nepal, creating impactful tech solutions for real-world problems."
         />
         <meta property="og:site_name" content="Sanket Karki Portfolio" />
 
@@ -61,7 +61,7 @@ const Home = () => {
         />
         <meta
           name="twitter:description"
-          content="A passionate full-stack developer creating impactful solutions for real-world problems."
+          content="A passionate Fullstack Developer from Pokhara, Nepal, creating impactful tech solutions for real-world problems."
         />
         <meta
           name="twitter:image"
@@ -70,7 +70,7 @@ const Home = () => {
         <meta name="twitter:url" content="https://your-portfolio.com" />
       </Helmet>
 
-      <div className="card lg:sticky lg:top-5">
+      <div className="card lg:sticky lg:top-5 h-auto">
         <div className="box flex flex-col bg-white w-[90%] h-[450px] lg:h-[550px] lg:w-96 rounded-2xl mx-auto">
           <div className="image mx-auto w-64 h-52 lg:h-72 rounded-xl mt-8 flex justify-center items-center">
             <img
@@ -84,10 +84,10 @@ const Home = () => {
             SANKET KARKI
           </div>
           <div className="description mt-4 text-center text-[#8b6b6e] px-10 sm:px-36 md:px-56 lg:px-14">
-            A Passionate Developer who has created impactful tech solutions to
-            solve real-world problems.
+            A passionate Fullstack Developer from Nepal, creating tech solutions
+            for real-world problems.
           </div>
-          <div className="socials flex mt-5 justify-around mx-10 sm:px-36 md:px-56 lg:px-12">
+          <div className="socials flex mt-5 justify-around mx-10 sm:px-36 md:px-56 lg:px-12 ">
             <a
               href="https://www.linkedin.com/in/sanket-karki-942617184/"
               target="_blank"
