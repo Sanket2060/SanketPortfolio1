@@ -16,6 +16,7 @@ const SingleProject: React.FC<SingleProjectProps> = ({
           src={image}
           alt="project-image"
           className="object-cover w-full h-full rounded-md"
+          loading="lazy"
         />
       </div>
 

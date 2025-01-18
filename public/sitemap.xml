@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://sanketkarki.com.np/</loc>
+    <lastmod>2025-01-18</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Projects Page -->
+  <url>
+    <loc>https://sanketkarki.com.np/projects</loc>
+    <lastmod>2025-01-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Experience Page -->
+  <url>
+    <loc>https://sanketkarki.com.np/experience</loc>
+    <lastmod>2025-01-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Tools Page -->
+  <url>
+    <loc>https://sanketkarki.com.np/tools</loc>
+    <lastmod>2025-01-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Blog Page -->
+  <url>
+    <loc>https://sanketkarki.com.np/blog</loc>
+    <lastmod>2025-01-18</lastmod>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Contact Me Page -->
+  <url>
+    <loc>https://sanketkarki.com.np/contactme</loc>
+    <lastmod>2025-01-18</lastmod>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Additional Description Page -->
+  <url>
+    <loc>https://sanketkarki.com.np/</loc>
+    <lastmod>2025-01-18</lastmod>
+    <priority>0.7</priority>
+  </url>
+</urlset>
