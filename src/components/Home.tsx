@@ -71,7 +71,7 @@ const Home = () => {
       </Helmet>
 
       <div className="card lg:sticky lg:top-5 h-auto">
-        <div className="box flex flex-col bg-white w-[90%] h-[450px] lg:h-[550px] lg:w-96 rounded-2xl mx-auto">
+        <div className="box flex flex-col bg-white w-[90%] h-auto sm:h-[450px] lg:h-[550px] lg:w-96 rounded-2xl mx-auto">
           <div className="image mx-auto w-64 h-52 lg:h-72 rounded-xl mt-8 flex justify-center items-center">
             <img
               className="w-full h-full rounded-2xl object-cover"
@@ -87,7 +87,7 @@ const Home = () => {
             A passionate Fullstack Developer from Nepal, creating tech solutions
             for real-world problems.
           </div>
-          <div className="socials flex mt-5 justify-around mx-10 sm:px-36 md:px-56 lg:px-12 ">
+          <div className="socials flex mt-5 justify-around mx-10 sm:px-36 md:px-56 lg:px-12 pb-10">
             <a
               href="https://www.linkedin.com/in/sanket-karki-942617184/"
               target="_blank"
