@@ -7,11 +7,11 @@ import block from "../../public/block-it.png";
 const Projects = () => {
   return (
     <div className="projects lg:px-20">
-      <div className="topic mt-12 lg font-bold text-5xl">
+      <div className="topic mt-12 font-bold text-5xl">
         <div className="text-white mx-auto text-center ">RECENT</div>
         <div className="text-[#353334] mx-auto text-center">PROJECTS</div>
       </div>
-      <div className="projectlist flex flex-col">
+      <div className="projectlist flex flex-col xl:w-[900px]">
         <div className="lg:flex lg:items-center lg:justify-between" onClick={() => window.open("https://bhojan-five.vercel.app/", "_blank")}>
           <SingleProject
             name="Khana-Food Waste Management"

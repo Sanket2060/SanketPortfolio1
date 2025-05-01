@@ -7,7 +7,7 @@ const Tools = () => {
         <div className="text-white mx-auto text-center ">DAILY</div>
         <div className="text-[#353334] mx-auto text-center">UTILITIES</div>
       </div>
-      <div className="tools">
+      <div className="tools xl:w-[900px]">
         <SingleProject
           name="REACT JS"
           description="FRONTEND TECH"

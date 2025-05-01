@@ -5,7 +5,7 @@ const Experience = () => {
         <div className="text-white mx-auto text-center ">MY OWN</div>
         <div className="text-[#353334] mx-auto text-center">EXPERIENCE</div>
       </div>
-      <div className="mt-6 companies">
+      <div className="mt-6 companies xl:w-[900px]">
       <div className="company1 ml-5 mb-10">
           <div className="name text-white text-xl font-bold">
             HirefinnAI
