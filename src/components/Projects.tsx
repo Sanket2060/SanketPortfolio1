@@ -1,5 +1,8 @@
 import { MoveUpRight } from "lucide-react";
 import SingleProject from "./SingleProject";
+import bhojan from "../../public/bhojan.png";
+import trip from "../../public/tripsplit.png";
+import block from "../../public/block-it.png";
 
 const Projects = () => {
   return (
@@ -9,27 +12,27 @@ const Projects = () => {
         <div className="text-[#353334] mx-auto text-center">PROJECTS</div>
       </div>
       <div className="projectlist flex flex-col">
-        <div className="lg:flex lg:items-center lg:justify-between">
+        <div className="lg:flex lg:items-center lg:justify-between" onClick={() => window.open("https://bhojan-five.vercel.app/", "_blank")}>
           <SingleProject
-            name="Khana.me"
+            name="Khana-Food Waste Management"
             description="Web Application"
-            image="https://media.licdn.com/dms/image/v2/D4D12AQGVw0sVZ7Kj-g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1673636348356?e=1737590400&v=beta&t=iKZ467XNwcaBA_w_cLOrbigVUK9uVFDgt2_i3zKXcFU"
+              image={bhojan}
           />
           <MoveUpRight color="orange" className="hidden lg:inline" />
         </div>
-        <div className="lg:flex lg:items-center lg:justify-between ">
+        <div className="lg:flex lg:items-center lg:justify-between " onClick={() => window.open("https://github.com/Sanket2060/TripSplit", "_blank")}>
           <SingleProject
-            name="Khana.me"
+            name="TripSplit"
             description="Web Application"
-            image="https://media.licdn.com/dms/image/v2/D4D12AQGVw0sVZ7Kj-g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1673636348356?e=1737590400&v=beta&t=iKZ467XNwcaBA_w_cLOrbigVUK9uVFDgt2_i3zKXcFU"
+            image={trip}
           />
           <MoveUpRight color="orange" className="hidden lg:inline" />
         </div>
-        <div className="lg:flex lg:items-center lg:justify-between">
+        <div className="lg:flex lg:items-center lg:justify-between" onClick={() => window.open("https://github.com/Sanket2060/Block-it-Web-Extension", "_blank")}>
           <SingleProject
-            name="Khana.me"
+            name="Block-it Web Extension"
             description="Web Application"
-            image="https://media.licdn.com/dms/image/v2/D4D12AQGVw0sVZ7Kj-g/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1673636348356?e=1737590400&v=beta&t=iKZ467XNwcaBA_w_cLOrbigVUK9uVFDgt2_i3zKXcFU"
+            image={block}
           />
           <MoveUpRight color="orange" className="hidden lg:inline" />
         </div>
