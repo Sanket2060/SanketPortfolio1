@@ -11,7 +11,7 @@ const SingleProject: React.FC<SingleProjectProps> = ({
 }) => {
   return (
     <div className="flex items-center mt-8 ml-6">
-      <div className="w-20 h-20 relative">
+      <div className="w-20 h-20 relative flex-none">
         <img
           src={image}
           alt="project-image"
