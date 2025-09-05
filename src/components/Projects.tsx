@@ -29,7 +29,7 @@ const Projects = () => {
           />
           <MoveUpRight color="orange" className="hidden lg:inline" />
         </div>
-        <div className="lg:flex lg:items-center lg:justify-between " onClick={() => window.open("https://github.com/Sanket2060/TripSplit", "_blank")}>
+        <div className="lg:flex lg:items-center lg:justify-between " onClick={() => window.open("https://github.com/Sanket2060/fantasy-system-backend1", "_blank")}>
           <SingleProject
             name="Fantasy Sports Management SAAS application"
             description="Mobile Application"
