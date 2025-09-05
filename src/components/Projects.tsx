@@ -2,7 +2,7 @@ import { MoveUpRight } from "lucide-react";
 import SingleProject from "./SingleProject";
 import bhojan from "../../public/bhojan.png";
 import kagazpatra from '../../public/kagazpatra.png';
-import fantasy from "../../public/fantasy.jpg";
+import fantasy from "../../public/fantasy.png";
 import block from "../../public/block-it.png";
 
 const Projects = () => {
