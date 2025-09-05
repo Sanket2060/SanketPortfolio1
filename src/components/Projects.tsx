@@ -1,7 +1,8 @@
 import { MoveUpRight } from "lucide-react";
 import SingleProject from "./SingleProject";
 import bhojan from "../../public/bhojan.png";
-import trip from "../../public/tripsplit.png";
+import kagazpatra from '../../public/kagazpatra.png';
+import fantasy from "../../public/fantasy.png";
 import block from "../../public/block-it.png";
 
 const Projects = () => {
@@ -12,6 +13,14 @@ const Projects = () => {
         <div className="text-[#353334] mx-auto text-center">PROJECTS</div>
       </div>
       <div className="projectlist flex flex-col xl:w-[900px]">
+        <div className="lg:flex lg:items-center lg:justify-between" onClick={() => window.open("https://kagazpatra.com", "_blank")}>
+          <SingleProject
+            name="Kagazpatra-Digitizing handwritten documents"
+            description="Web Application"
+              image={kagazpatra}
+          />
+          <MoveUpRight color="orange" className="hidden lg:inline" />
+        </div>
         <div className="lg:flex lg:items-center lg:justify-between" onClick={() => window.open("https://bhojan-five.vercel.app/", "_blank")}>
           <SingleProject
             name="Khana-Food Waste Management"
@@ -22,9 +31,9 @@ const Projects = () => {
         </div>
         <div className="lg:flex lg:items-center lg:justify-between " onClick={() => window.open("https://github.com/Sanket2060/TripSplit", "_blank")}>
           <SingleProject
-            name="TripSplit"
-            description="Web Application"
-            image={trip}
+            name="Fantasy Sports Management SAAS application"
+            description="Mobile Application"
+            image={fantasy}
           />
           <MoveUpRight color="orange" className="hidden lg:inline" />
         </div>
