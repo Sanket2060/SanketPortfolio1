@@ -1,7 +1,7 @@
 import { Github } from "lucide-react";
 import SingleProject from "./SingleProject";
 import bhojan from "../../public/bhojan.png";
-import kagazpatra from '../../public/kagazpatra.png';
+import kagazpatra from "../../public/kagazpatra.png";
 import fantasy from "../../public/fantasy.png";
 import block from "../../public/block-it.png";
 
@@ -38,24 +38,24 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects lg:px-20">
+    <div className="projects px-4 sm:px-8 lg:px-20 overflow-x-hidden">
       <div className="topic mt-12 font-bold text-5xl text-center">
         <div className="text-white">RECENT</div>
         <div className="text-[#353334]">PROJECTS</div>
       </div>
 
-      <div className="projectlist flex flex-col xl:w-[900px] mt-8">
+      <div className="projectlist flex flex-col w-full max-w-[900px] mx-auto mt-8">
         {projects.map((proj, idx) => (
           <div
             key={idx}
-            className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6"
+            className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6 gap-4 lg:gap-0"
           >
             <SingleProject
               name={proj.name}
               description={proj.description}
               image={proj.image}
             />
-            <div className="flex gap-3 mt-3 ml-6 lg:mt-0">
+            <div className="flex gap-3 mt-3 justify-center lg:justify-start lg:mt-0">
               {proj.live ? (
                 <button
                   className="relative px-3 py-1 text-sm font-semibold text-red-500 border border-red-500 rounded-md animate-pulse"
