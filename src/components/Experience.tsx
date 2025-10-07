@@ -15,7 +15,7 @@ const Experience = () => {
             applications. Collaborated with teams to design user-friendly
             interfaces and implement backend solutions.
           </div>
-          <div className="time text-[#998f8f] mt-3">Oct 2024-Dec 2024</div>
+          <div className="time text-[#998f8f] mt-3">3 months</div>
         </div>
       </div>
     </div>
