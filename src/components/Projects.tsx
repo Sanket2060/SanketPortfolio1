@@ -11,7 +11,7 @@ const Projects = () => {
       name: "Kagazpatra-Digitizing handwritten documents",
       description: "Web Application",
       image: kagazpatra,
-      live: null,
+      live: "https://kagazpatra.com/",
       github: null,
     },
     {
