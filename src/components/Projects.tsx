@@ -1,9 +1,10 @@
-import { MoveUpRight } from "lucide-react";
+import { Github } from "lucide-react";
 import SingleProject from "./SingleProject";
 import bhojan from "../../public/bhojan.png";
 import kagazpatra from '../../public/kagazpatra.png';
 import fantasy from "../../public/fantasy.png";
 import block from "../../public/block-it.png";
+
 
 const Projects = () => {
   return (
@@ -13,37 +14,60 @@ const Projects = () => {
         <div className="text-[#353334] mx-auto text-center">PROJECTS</div>
       </div>
       <div className="projectlist flex flex-col xl:w-[900px]">
-        <div className="lg:flex lg:items-center lg:justify-between" onClick={() => window.open("https://kagazpatra.com", "_blank")}>
+        <div className="lg:flex lg:items-center lg:justify-between">
           <SingleProject
             name="Kagazpatra-Digitizing handwritten documents"
             description="Web Application"
               image={kagazpatra}
           />
-          <MoveUpRight color="orange" className="hidden lg:inline" />
+          <div className="flex items-center gap-3">
+          <button className="relative px-3 py-1 text-sm font-semibold text-red-500 border border-red-500 rounded-md animate-pulse">
+            Live
+            <span className="absolute inset-0 rounded-md animate-ping bg-red-500 opacity-20"></span>
+          </button>
+          <Github color="#555" className="hidden lg:inline opacity-50 cursor-default" />
+      </div>
         </div>
-        <div className="lg:flex lg:items-center lg:justify-between" onClick={() => window.open("https://bhojan-five.vercel.app/", "_blank")}>
+        <div className="lg:flex lg:items-center lg:justify-between">
           <SingleProject
             name="Khana-Food Waste Management"
             description="Web Application"
               image={bhojan}
           />
-          <MoveUpRight color="orange" className="hidden lg:inline" />
+          <div className="flex items-center gap-3">
+  <button className="relative px-3 py-1 text-sm font-semibold text-red-500 border border-red-500 rounded-md animate-pulse" onClick={() => window.open("https://bhojan-five.vercel.app/", "_blank")}>
+    Live
+    <span className="absolute inset-0 rounded-md animate-ping bg-red-500 opacity-20"></span>
+  </button>
+  <Github color="orange" className="hidden lg:inline" onClick={() => window.open("https://github.com/Sanket2060/Bhojan", "_blank")} />
+</div>
         </div>
-        <div className="lg:flex lg:items-center lg:justify-between " onClick={() => window.open("https://github.com/Sanket2060/fantasy-system-backend1", "_blank")}>
+        <div className="lg:flex lg:items-center lg:justify-between " >
           <SingleProject
             name="Fantasy Sports Management SAAS application"
             description="Mobile Application"
             image={fantasy}
           />
-          <MoveUpRight color="orange" className="hidden lg:inline" />
+          <div className="flex items-center gap-3">
+  <button className="px-3 py-1 text-sm font-semibold text-gray-400 border border-gray-600 rounded-md bg-[#1a1a1a] cursor-not-allowed">
+  Live
+</button>
+  <Github color="orange" className="hidden lg:inline cursor-pointer" onClick={() => window.open("https://github.com/Sanket2060/fantasy-system-backend1", "_blank")} />
+</div>
         </div>
-        <div className="lg:flex lg:items-center lg:justify-between" onClick={() => window.open("https://github.com/Sanket2060/Block-it-Web-Extension", "_blank")}>
+        <div className="lg:flex lg:items-center lg:justify-between">
           <SingleProject
             name="Block-it Web Extension"
             description="Web Application"
             image={block}
           />
-          <MoveUpRight color="orange" className="hidden lg:inline" />
+          <div className="flex items-center gap-3">
+  <button className="relative px-3 py-1 text-sm font-semibold text-red-500 border border-red-500 rounded-md animate-pulse">
+    Live
+    <span className="absolute inset-0 rounded-md animate-ping bg-red-500 opacity-20"></span>
+  </button>
+  <Github color="orange" className="hidden lg:inline" onClick={() => window.open("https://github.com/Sanket2060/Block-it-Web-Extension", "_blank")} />
+</div>
         </div>
       </div>
     </div>
