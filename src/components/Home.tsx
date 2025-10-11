@@ -22,8 +22,8 @@ const Home = () => {
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Sanket Karki",
-              "url": "https://your-portfolio.com",
-              "image": "https://your-portfolio.com/your-image.jpg",
+              "url": "https://sanketkarki.com.np",
+              "image": "https://sanketkarki.com.np/your-image.jpg",
               "jobTitle": "Full-Stack Developer",
               "sameAs": [
                 "https://www.linkedin.com/in/sanket-karki-942617184/",

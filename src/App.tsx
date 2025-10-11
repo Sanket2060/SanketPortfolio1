@@ -40,17 +40,17 @@ function App() {
           </span>
         </header>
         <div className="lg:flex lg:mx-16">
-          <div>
-            <Home />
-          </div>
-          <div className="lg:px-0 lg:py-5">
-            <Outlet />
-            <footer className="w-full text-[#998f8f] text-center mt-8">
-              Made with <span>💖</span> and{" "}
-              <span className="text-[#f46c38]">JS</span>
-            </footer>
-          </div>
-        </div>
+  <div className="lg:w-auto">
+    <Home />
+  </div>
+  <div className="lg:flex-1 lg:px-0 lg:py-5">
+    <Outlet />
+    <footer className="w-full text-[#998f8f] text-center mt-8">
+      Made with <span>💖</span> and <span className="text-[#f46c38]">JS</span>
+    </footer>
+  </div>
+</div>
+
       </div>
     </>
   );

@@ -38,7 +38,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="projects px-4 sm:px-8 lg:px-20 overflow-x-hidden">
+    <div className="projects overflow-x-hidden w-full">
       <div className="topic mt-12 font-bold text-5xl text-center">
         <div className="text-white">RECENT</div>
         <div className="text-[#353334]">PROJECTS</div>
