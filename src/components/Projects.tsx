@@ -4,9 +4,20 @@ import bhojan from "../../public/bhojan.png";
 import kagazpatra from "../../public/kagazpatra.png";
 import fantasy from "../../public/fantasy.png";
 import block from "../../public/block-it.png";
+import pcr from "../../public/pcr.png";
+import khimscafe from "../../public/khimscafe.png";
+import bobsgym from "../../public/bobsgym.png";
+
+interface Project {
+  name: string;
+  description: string;
+  image: string;
+  live: string | null;
+  github: string | null;
+}
 
 const Projects = () => {
-  const projects = [
+  const projects: Project[] = [
     {
       name: "Kagazpatra-Digitizing handwritten documents",
       description: "Web Application",
@@ -37,6 +48,30 @@ const Projects = () => {
     },
   ];
 
+  const freelanceProjects: Project[] = [
+    {
+      name: "Pokhara Coffee Roastery",
+      description: "Web Application",
+      image: pcr,
+      live: "https://pokharacoffeeroastery.com",
+      github: null,
+    },
+    {
+      name: "Khimscafe",
+      description: "Web Application",
+      image: khimscafe,
+      live: "https://khimscafe.com",
+      github: null,
+    },
+    {
+      name: "Bobs Gym",
+      description: "Web Application",
+      image: bobsgym,
+      live: "https://bobsgympokhara.com",
+      github: null,
+    },
+  ];
+
   return (
     <div className="projects overflow-x-hidden w-full">
       <div className="topic mt-12 font-bold text-5xl text-center">
@@ -59,7 +94,7 @@ const Projects = () => {
               {proj.live ? (
                 <button
                   className="relative px-3 py-1 text-sm font-semibold text-red-500 border border-red-500 rounded-md animate-pulse"
-                  onClick={() => window.open(proj.live, "_blank")}
+                  onClick={() => proj.live && window.open(proj.live, "_blank")}
                 >
                   Live
                   <span className="absolute inset-0 rounded-md animate-ping bg-red-500 opacity-20"></span>
@@ -74,7 +109,52 @@ const Projects = () => {
                 <Github
                   color="orange"
                   className="cursor-pointer"
-                  onClick={() => window.open(proj.github, "_blank")}
+                  onClick={() => proj.github && window.open(proj.github, "_blank")}
+                />
+              ) : (
+                <Github color="#555" className="opacity-50 cursor-default" />
+              )}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="topic mt-20 font-bold text-5xl text-center">
+        <div className="text-white">FREELANCE</div>
+        <div className="text-[#353334]">PROJECTS</div>
+      </div>
+
+      <div className="projectlist flex flex-col w-full max-w-[900px] mx-auto mt-8">
+        {freelanceProjects.map((proj, idx) => (
+          <div
+            key={idx}
+            className="flex flex-col lg:flex-row lg:items-center lg:justify-between mb-6 gap-4 lg:gap-0"
+          >
+            <SingleProject
+              name={proj.name}
+              description={proj.description}
+              image={proj.image}
+            />
+            <div className="flex gap-3 mt-3 justify-center lg:justify-start lg:mt-0">
+              {proj.live ? (
+                <button
+                  className="relative px-3 py-1 text-sm font-semibold text-red-500 border border-red-500 rounded-md animate-pulse"
+                  onClick={() => proj.live && window.open(proj.live, "_blank")}
+                >
+                  Live
+                  <span className="absolute inset-0 rounded-md animate-ping bg-red-500 opacity-20"></span>
+                </button>
+              ) : (
+                <button className="px-3 py-1 text-sm font-semibold text-gray-400 border border-gray-600 rounded-md bg-[#1a1a1a] cursor-not-allowed">
+                  Live
+                </button>
+              )}
+
+              {proj.github ? (
+                <Github
+                  color="orange"
+                  className="cursor-pointer"
+                  onClick={() => proj.github && window.open(proj.github, "_blank")}
                 />
               ) : (
                 <Github color="#555" className="opacity-50 cursor-default" />
