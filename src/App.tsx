@@ -11,7 +11,7 @@ import Home from "./components/Home";
 function App() {
   return (
     <>
-      <div className="w-full min-h-screen bg-black py-4 font-poppins animate-fall overflow-x-hidden">
+      <div className="w-full min-h-screen bg-black py-4 font-poppins animate-fall">
         <header className="w-64 rounded-2xl py-3 px-4 mx-auto bg-[#1c1a19] flex justify-between mb-10">
           <span className="icons">
             <Link to="/">
@@ -43,7 +43,7 @@ function App() {
   <div className="lg:w-auto">
     <Home />
   </div>
-  <div className="lg:flex-1 lg:px-0 lg:py-5 min-w-0">
+  <div className="lg:flex-1 lg:px-0 lg:py-5 min-w-0 overflow-x-hidden">
     <Outlet />
     <footer className="w-full text-[#998f8f] text-center mt-8">
       Made with <span>💖</span> and <span className="text-[#f46c38]">JS</span>

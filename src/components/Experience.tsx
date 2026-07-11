@@ -6,7 +6,18 @@ const Experience = () => {
         <div className="text-[#353334]">EXPERIENCE</div>
       </div>
 
-      <div className="mt-8 companies w-full max-w-[900px] mx-auto">
+      <div className="mt-8 companies w-full max-w-[900px] mx-auto space-y-6">
+        <div className="company2 bg-[#111] rounded-lg p-5 sm:p-6 md:p-8 shadow-md">
+          <div className="name text-white text-xl sm:text-2xl font-bold">
+            Builders Academy
+          </div>
+          <div className="description text-[#998f8f] mt-3 text-sm sm:text-base leading-relaxed">
+            Fullstack Developer, building end-to-end web applications and
+            delivering complete digital solutions. Worked across frontend and
+            backend systems to create responsive, scalable, and user-centric
+            products.
+          </div>
+        </div>
         <div className="company1 bg-[#111] rounded-lg p-5 sm:p-6 md:p-8 shadow-md">
           <div className="name text-white text-xl sm:text-2xl font-bold">
             Dezvu Technologies
@@ -16,7 +27,6 @@ const Experience = () => {
             applications. Collaborated with teams to design user-friendly
             interfaces and implement backend solutions.
           </div>
-          <div className="time text-[#998f8f] mt-3 text-sm">3 months</div>
         </div>
       </div>
     </div>

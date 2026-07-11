@@ -70,7 +70,7 @@ const Home = () => {
         <meta name="twitter:url" content="https://your-portfolio.com" />
       </Helmet>
 
-      <div className="card lg:sticky lg:top-5 h-auto">
+      <div className="card h-auto">
         <div className="box flex flex-col bg-white w-[90%] h-auto sm:h-[450px] lg:h-[550px] lg:w-96 rounded-2xl mx-auto">
           <div className="image mx-auto w-64 h-52 lg:h-72 rounded-xl mt-8 flex justify-center items-center">
             <img
